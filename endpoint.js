@@ -7,9 +7,9 @@ function getUserData(body) {
     if (!userData) {
       return "Error";
     }
-    const dataToReturn = _.omit(userData, ['authID']);
+    //const dataToReturn = _.omit(userData, ['authID']);
 
-    return dataToReturn
+    return userData//dataToReturn
 }
 
 module.exports = getUserData
